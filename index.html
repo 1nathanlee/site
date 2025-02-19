@@ -1,7 +1,8 @@
 <title>Nathan!</title>
 <meta name="description" content="Nathan A. Lee - Writing & Photography." />
 <meta property="og:image" content="" />
-<div class="main">
+<div class="row">
+<div class="column" id="L">
 <header>Nathan A. Lee</header>
 <hr>
 <div class="nav">Home</div>
@@ -17,7 +18,53 @@ They will be majoring in Visual Arts with a concentration in Graphic Design star
 nathanalee.us ★ hosted on github 
 </footer>
 </div>
-
+<div class="column" id="R">
+  <div class="gallery">
+      <img src="https://nathanalee.carrd.co/assets/images/gallery05/fd1e5283_original.jpg?v=a3c4e9dc">
+    <div class="desc">Add a description of the image here</div>
+  </div>
+    <div class="gallery">
+      <img src="https://nathanalee.carrd.co/assets/images/gallery05/7ef8851d_original.jpg?v=a3c4e9dc">
+    <div class="desc">Add a description of the image here</div>
+  </div>
+      <div class="gallery">
+      <img src="https://nathanalee.carrd.co/assets/images/gallery07/fe393be0_original.jpg?v=a3c4e9dc">
+    <div class="desc">Add a description of the image here</div>
+  </div>
+        <div class="gallery">
+      <img src="https://nathanalee.carrd.co/assets/images/gallery07/00e43d77_original.jpg?v=a3c4e9dc">
+    <div class="desc">Add a description of the image here</div>
+  </div>
+        <div class="gallery">
+      <img src="https://nathanalee.carrd.co/assets/images/gallery06/9ebf0198_original.jpg?v=a3c4e9dc">
+    <div class="desc">Add a description of the image here</div>
+  </div>
+          <div class="gallery">
+      <img src="https://nathanalee.carrd.co/assets/images/gallery06/9ebf0198_original.jpg?v=a3c4e9dc">
+    <div class="desc">Add a description of the image here</div>
+  </div>
+            <div class="gallery">
+      <img src="https://nathanalee.carrd.co/assets/images/gallery06/9ebf0198_original.jpg?v=a3c4e9dc">
+    <div class="desc">Add a description of the image here</div>
+  </div>
+            <div class="gallery">
+      <img src="https://nathanalee.carrd.co/assets/images/gallery06/9ebf0198_original.jpg?v=a3c4e9dc">
+    <div class="desc">Add a description of the image here</div>
+  </div>
+            <div class="gallery">
+      <img src="https://nathanalee.carrd.co/assets/images/gallery06/9ebf0198_original.jpg?v=a3c4e9dc">
+    <div class="desc">Add a description of the image here</div>
+  </div>
+            <div class="gallery">
+      <img src="https://nathanalee.carrd.co/assets/images/gallery06/9ebf0198_original.jpg?v=a3c4e9dc">
+    <div class="desc">Add a description of the image here</div>
+  </div>
+            <div class="gallery">
+      <img src="https://nathanalee.carrd.co/assets/images/gallery06/9ebf0198_original.jpg?v=a3c4e9dc">
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+</div>
 <style>
 body {
       background-color:black;
@@ -25,9 +72,9 @@ body {
       font-family:courier new;
     height: 100%;
     width: 100%;
-    overflow:hidden;
-    background-image:url("https://github.com/1nathanlee/site/blob/889e11bfa7fd3b6888e02c39bd55b65a8283df46/bg.png?raw=true");
+    background-color:black;
     background-size:300px 200px;
+    overflow:hidden;
     }
 header {
     padding-top:10px;
@@ -64,5 +111,45 @@ footer {
 }
 .content hr {
     border:0px solid transparent;
+}
+.gallery {
+  border: 1px solid #ccc;
+  width:256px;
+  float:left;
+  margin-left:45px;
+  margin-top:20px;
+}
+.gallery img {
+    width:256px;
+    height:364px;
+}
+.desc {
+  text-align: center;
+  width:256px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row {
+  display: flex;
+  width:1920px;
+  height:100%;
+  margin-top:-9px;
+  margin-left:-9px;
+}
+
+#L.column {
+  flex: 16%;
+  background-color:#861f1e;
+}
+
+#R.column {
+  flex: 84%;
+  padding-top:12px;
+  overflow:auto;
+  background-color:black;
 }
 </style>
